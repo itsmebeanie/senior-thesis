@@ -204,13 +204,14 @@ var Webgl = (function() {
 setup = {
     dodecahedronSize: {
         treble: 0.05,
-        medium: 0.03,
-        bass: 0.01
+        medium: 0.04,
+        bass: 0.03
     },
+    /* mario themed colors */
     dodecahedronColor: {
-        treble: 0xD85465, /* red */
-        medium: 0x006891, /* blue */
-        bass: 0x1BB996 /* green */
+        treble: 0xed1c24, /* red */
+        medium: 0x0066b3, /* blue */
+        bass: 0xfae400 /* yellow */
     }
 }
 /***************************/
