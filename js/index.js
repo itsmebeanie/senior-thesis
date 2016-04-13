@@ -6,8 +6,7 @@ var webgl, audio; // must be global
 
 // Create audio object
 var audioEl = new Audio();
-audioEl.src = 'http://lab.hengpatrick.fr/three-js-audio-experiment/src/audio/Subaqueous.mp3';
-audioEl.controls = false;
+audioEl.src = 'HomeSweetHome.mp3';
 audioEl.crossOrigin = "anonymous";
 audioEl.loop = true;
 audioEl.autoplay = true;
