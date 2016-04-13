@@ -205,7 +205,7 @@ setup = {
     dodecahedronSize: {
         treble: 0.05,
         medium: 0.05,
-        bass: 0.05
+        bass: 0.02
     },
     /* mario themed colors */
     dodecahedronColor: {
