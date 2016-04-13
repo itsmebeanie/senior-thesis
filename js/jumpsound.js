@@ -209,9 +209,9 @@ setup = {
     },
     /* mario themed colors */
     dodecahedronColor: {
-        treble: 0xfae400, /* red */
+        treble: 0xed1c24, /* red */
         medium: 0x0066b3, /* blue */
-        bass: 0xed1c24 /* yellow */
+        bass: 0xfae400/* yellow */
     }
 }
 /***************************/
