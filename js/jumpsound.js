@@ -203,8 +203,8 @@ var Webgl = (function() {
 /***********************************************************************/
 setup = {
     dodecahedronSize: {
-        treble: 0.08,
-        medium: 0.06,
+        treble: 0.05,
+        medium: 0.05,
         bass: 0.05
     },
     /* mario themed colors */
