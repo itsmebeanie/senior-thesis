@@ -6,8 +6,8 @@ var webgl, audio; // must be global
 
 // Create audio object
 var audioEl = new Audio();
-audioEl.src = 'https://github.com/kaitlingu/senior-thesis/blob/master/HomeSweetHome.mp3';
-audioEl.crossOrigin = "anonymous";
+audioEl.src = 'HomeSweetHome.mp3';
+audioEl.crossOrigin = "use-credentials";
 audioEl.loop = true;
 audioEl.autoplay = true;
 document.getElementById('audiobox').appendChild(audioEl);
