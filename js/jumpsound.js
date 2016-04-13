@@ -254,7 +254,7 @@ function getRandomArbitrary(min, max) {
 /* resizing */
 /***********/
 function resizeHandler() {
-    webgl.resize(window.innerWidth, window.innerHeight);
+    webgl.resize(window.innerWidth, window.innerHeight/2);
 }
 
 
@@ -263,7 +263,7 @@ function resizeHandler() {
 /* called when dom loaded */
 /*************************/
 function init() {
-    webgl = new Webgl(window.innerWidth, window.innerHeight); // matches window
+    webgl = new Webgl(window.innerWidth, window.innerHeight/2); // matches window
     audio = new AudioW(); // audio
     document.getElementById('canvas').appendChild(webgl.renderer.domElement);
     window.addEventListener('resize', resizeHandler, true); // handling window resize
