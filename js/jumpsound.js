@@ -6,7 +6,7 @@ var webgl, audio; // must be global
 
 // Create audio object
 var audioEl = new Audio();
-audioEl.src = 'jumpsound.m4a';
+audioEl.src = 'audio/jumpsound.m4a';
 audioEl.crossOrigin = "use-credentials";
 audioEl.loop = true;
 audioEl.autoplay = true;
