@@ -9,6 +9,11 @@ video {
   height: auto   !important;
 }
 
+section.video {
+  margin: 0;
+  color: white;
+  padding: 5em 20em 5em;
+  background-color: #006891; }
 
 
 canvas {
