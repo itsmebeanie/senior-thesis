@@ -133,7 +133,7 @@ var Webgl = (function() {
         this.scene = new THREE.Scene();
 
         this.camera = new THREE.PerspectiveCamera(50, width / height, 1, 10000);
-        this.camera.position.z = 800;
+        this.camera.position.z = 400;
 
         this.camera.lookAt(this.scene.position);
 
