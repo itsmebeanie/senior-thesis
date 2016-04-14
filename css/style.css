@@ -4,6 +4,11 @@ body, html {
   overflow: hidden;
   background: #fff;
 }
+video {
+  width: auto    !important;
+  height: auto   !important;
+}
+
 
 
 canvas {
