@@ -6,7 +6,7 @@ var webgl, audio; // must be global
 
 // Create audio object
 var audioEl = new Audio();
-audioEl.src = 'audio/earthbound.mp4';
+audioEl.src = 'audio/HomeSweetHome.mp3';
 audioEl.crossOrigin = "use-credentials";
 audioEl.loop = true;
 audioEl.autoplay = true;
@@ -253,7 +253,7 @@ function getRandomArbitrary(min, max) {
 /* resizing */
 /***********/
 function resizeHandler() {
-    webgl.resize(window.innerWidth, window.innerHeight/1.7);
+    webgl.resize(window.innerWidth, window.innerHeight);
 }
 
 
@@ -262,7 +262,7 @@ function resizeHandler() {
 /* called when dom loaded */
 /*************************/
 function init() {
-    webgl = new Webgl(window.innerWidth, window.innerHeight/1.7); // matches window
+    webgl = new Webgl(window.innerWidth, window.innerHeight); // matches window
     audio = new AudioW(); // audio
     document.getElementById('canvas').appendChild(webgl.renderer.domElement);
     window.addEventListener('resize', resizeHandler, true); // handling window resize
