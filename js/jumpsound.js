@@ -144,7 +144,7 @@ var Webgl = (function() {
 
         this.dodecahedrons = [];
         this.dodecahedronsNb = 0;
-        this.dodecahedronsLimit = 250;
+        this.dodecahedronsLimit = 100;
 
         var audioCategories = ['bass', 'medium', 'treble']
 
