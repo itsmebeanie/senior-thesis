@@ -15,8 +15,14 @@ section.video {
   height:45%;
   text-align:center;
   background-color: #000; }
-
-
+  section.image {
+    margin: 0;
+    color: white;
+    height:45%;
+    text-align:center;
+    background-color: #000; }
+    section.image>img {
+    height:100%;}
 canvas {
 margin:0;
   background-color: blue;
